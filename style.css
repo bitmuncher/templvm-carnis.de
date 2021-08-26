@@ -20,6 +20,7 @@ h1,.white{
 h2,.white{
     color: #ffffff;
 }
+
 a,.white {
     color: #ffffff;
 }
@@ -30,11 +31,30 @@ a,.white {
     margin: auto;
     text-align: center;
 }
-.menu {
-    text-align: center;
-}
 
 img {
     width: 60%;
     height: 60%;
+}
+
+.menu-container {
+    text-align: center;
+    overflow: hidden;
+    text-align: center;
+    background-color: #111;
+}
+,.menu {
+  list-style-type: none;
+  background-color: #000;
+}
+.menu-item {
+    display: inline-block;
+    padding: 10px 12px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #111;
+}
+.menu-item:hover {
+    background-color: #000;
 }
