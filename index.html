@@ -15,13 +15,18 @@
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="style.css">
     <title>Templvm Carnis</title>
+    <script src="jquery.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("#includeMenu").load("menu.html");
+        });
+    </script>
   </Ohead>
   <body>
       <div class="startpage">
           <center><h1>TEMPLVM CARNIS</h1></center>
           <center><h2>WIR SIND ZUR&Uuml;CK AUF DEN BLUTIGEN PFADEN DURCH DAS MULTIVERSUM!</h2></center>
-          <div class="menu"><a href="library.html">Library</a><br /></div>
-          <br />
+          <div id="menu"><script src="menu.js"></script></div>
           <div class="box">
               <img src="data/images/templvm_carnis_logo_dark_700.jpg" />
           </div>
