@@ -1,1 +1,11 @@
-document.write('<center><h1>TEMPLVM CARNIS</h1></center>');
+document.write('\
+<header>\
+    <center>\
+        <h1> \
+            <img src="data/images/templvm_carnis_logo_dark_50.jpg" />\
+            &nbsp;TEMPLVM CARNIS&nbsp;\
+            <img src="data/images/templvm_carnis_logo_dark_50.jpg" />\
+        </h1>\
+    </center>\
+</header>\
+');
