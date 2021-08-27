@@ -3,6 +3,7 @@ document.write('<div class="menu-container">\
 <li class="menu-item"><a href="index.html">Start</a></li>\
 <li class="menu-item"><a href="library.html">Bibliothek</a></li>\
 <li class="menu-item"><a href="sounds.html">Vertontes</a></li>\
+<li class="menu-item"><a href="about.html">Über den TC</a></li>\
 </ul>\
 </div>\
 <br />\
