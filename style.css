@@ -36,6 +36,12 @@ a,.white {
     text-align: center;
 }
 
+.soundbox {
+    text-align: center;
+    margin:  auto;
+    width: 50%;
+}
+
 .menu-container {
     text-align: center;
     overflow: hidden;
