@@ -38,8 +38,14 @@ a,.white {
 
 .soundbox {
     text-align: center;
-    margin:  auto;
+    margin: auto;
+    width: 100%;
+}
+
+.chantsbox {
     width: 50%;
+    margin: auto;
+    text-align: center;
 }
 
 .abouttext {
