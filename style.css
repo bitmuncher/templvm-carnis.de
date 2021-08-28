@@ -35,6 +35,12 @@ a,.white {
     margin: auto;
     text-align: center;
 }
+.box-left {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    text-align: left;
+}
 
 .soundbox {
     text-align: center;
