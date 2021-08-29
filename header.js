@@ -12,7 +12,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     <center>\
         <h1> \
             <img src="data/images/templvm_carnis_logo_dark_100.jpg" style="float:left"/>\
-            &nbsp;TEMPLVM CARNIS&nbsp;\
+            <a href="index.html">TEMPLVM CARNIS</a>\
             <img src="data/images/templvm_carnis_logo_dark_100.jpg" style="float:right"/>\
         </h1>\
     </center>\
