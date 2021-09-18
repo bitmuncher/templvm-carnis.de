@@ -21,3 +21,6 @@ AddType application/dash+xml .mpd
 # For subtitles support
 AddType text/vtt .vtt
 AddType text/srt .srt
+
+# ignore git stuff
+RedirectMatch 404 /\.git
