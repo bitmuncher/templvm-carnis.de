@@ -24,3 +24,6 @@ AddType text/srt .srt
 
 # ignore git stuff
 RedirectMatch 404 /\.git
+
+# ignore README.md file
+RedirectMatch 404 /README.md
