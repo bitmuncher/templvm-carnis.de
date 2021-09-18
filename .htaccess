@@ -1,5 +1,5 @@
 # redirect unknown files to index.html
-ErrorDocument 404 /index.html
+ErrorDocument 404 /404.html
 
 # Video support
 AddType video/ogg .ogv
