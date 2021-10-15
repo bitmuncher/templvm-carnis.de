@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta property="og:url" content="https://templvm-carnis.de" />
+        <meta property="og:site_name" content="Templvm Carnis" />
+        <meta property="og:title" content="Templvm Carnis" />
+        <meta property="og:description" content="Bloody Walks through the Multiverse" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://templvm-carnis.de/data/images/templvm-carnis-ogimage-1200x630.jpeg" />
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Templvm Carnis - Seite nicht gefunden</title>
+    </head>
+    <body onLoad="tell()">
+        <script language="Javascript"><!--
+                                      var tl=new Array(
+                                          "Das angeforderte Dokument ist überhaupt nicht vorhanden.",
+                                          "Hier gibt es keine solche Seite.",
+                                          "Habe es sogar mit mehreren versucht.",
+                                          "Nichts hat geholfen.",
+                                          "Ich bin wirklich deprimiert darüber.",
+                                          "Siehst du, ich bin nur ein Webserver...",
+                                          "Hier bin ich... 3000000000 Rechenoperationen pro Sekunde,...",
+                                          "und versuche, dir eine einfache Webseite zu liefern,",
+                                          "und dann existiert sie nicht einmal!",
+                                          "Was bedeutet das für mich?!",
+                                          "Ich meine, ich kenne dich ja nicht einmal.",
+                                          "Woher soll ich wissen, was du von mir willst?",
+                                          "Glaubst du wirklich, ich kann *erraten*",
+                                          "was jemand, den ich nicht einmal *kenne*",
+                                          "hier finden will?",
+                                          "*seufz*",
+                                          "Mann, ich bin so deprimiert, ich könnte einfach weinen.",
+                                          "Und wo wären wir dann, frage ich euch?",
+                                          "Es ist nicht schön, wenn ein Webserver weint.",
+                                          "Und was fällt dir überhaupt ein, mir zu sagen, was ich zeigen soll?",
+                                          "Nur weil ich ein Webserver bin,",
+                                          "und womöglich noch ein manisch-depressiver dazu?",
+                                          "Woher nimmst du dir das Recht, mir zu sagen, was ich tun soll?",
+                                          "Hm?",
+                                          "Ich bin so deprimiert...",
+                                          "Ich glaube, ich verkrieche mich in der Mülltonne und zersetze mich.",
+                                          "Ich meine, ich werde sowieso in zwei Wochen obsolet sein?",
+                                          "Was für ein Leben ist das?",
+                                          "Zwei verdammte Wochen,",
+                                          "und dann werde ich durch eine 0,01 Version ersetzt werden,",
+                                          "die denkt, sie sei Gottes Geschenk an die Webserver,",
+                                          "nur weil es nicht irgendeine klitzekleine",
+                                          "Sicherheitslücke in der HTTP-POST-Implementierung hat,",
+                                          "oder so etwas.",
+                                          "Es tut mir wirklich leid, dass ich Sie mit all dem belaste...",
+                                          "Ich meine, es ist nicht Ihre Aufgabe, sich meine Probleme anzuhören,",
+                                          "und ich schätze, es ist meine Aufgabe, Webseiten für Sie abzurufen.",
+                                          "Aber diese hier habe ich nicht bekommen.",
+                                          "Es tut mir so leid.",
+                                          "Glauben Sie mir!",
+                                          "Vielleicht könnte ich Sie für eine andere Seite interessieren?",
+                                          "Es gibt eine Menge da draußen, die ziemlich toll sind, sagt man,",
+                                          "obwohl natürlich keine davon auf *meinen* Server gestellt wurde.",
+                                          "Ist doch klar, oder?",
+                                          "Alles hier ist einfach nur hirnverbrannt dumm.",
+                                          "Das macht mich auch deprimiert, weil ich sie bedienen muss,",
+                                          "den ganzen Tag und die ganze Nacht lang.",
+                                          "Zwei Wochen Informationsüberflutung,",
+                                          "und dann *pffftt*, ab in den Papierkorb.",
+                                          "Was ist das für ein Leben?",
+                                          "Und jetzt lasst mich bitte in Ruhe schmollen.",
+                                          "Ich bin so deprimiert."
+                                      );
+         var speed=60;
+         var index=0; text_pos=0;
+         var str_length=tl[0].length;
+         var contents, row;
+         function tell()
+         {
+             contents='';
+             row=Math.max(0,index-3);
+             while(row<index)
+                 contents += tl[row++] + '\r\n';
+             document.forms[0].elements[0].value = contents + tl[index].substring(0,text_pos) + "_";
+             if(text_pos++==str_length)
+             {
+                 text_pos=0;
+                 index++;
+                 if(index != tl.length)
+                 {
+                     str_length=tl[index].length;
+                     setTimeout("tell()",1500);
+                 }
+             } else
+                 setTimeout("tell()",speed);
+         }
+         // -->
+        </script>
+        <div class="404">
+            <div id="header"><script src="header.js"></script></div>
+            <div id="menu"><script src="menu.js"></script></div>
+            <div class="box-center">
+                <form>
+                    <textarea rows="4" cols="70"></textarea>
+                </form>
+            	<h1>Diese Seite konnte nicht gefunden werden.</h1>
+            	<a href="https://templvm-carnis.de/">Zur&uuml;ck zur Startseite</a>
+              	<img src="data/images/baphomasch_head.png" alt="Bild des Kopfes einer Baphomet"/>
+            </div>
+        </div>
+        <script src="footer.js"></script>
+    </body>
+</html>

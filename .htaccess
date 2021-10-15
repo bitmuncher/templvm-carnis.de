@@ -1,3 +1,6 @@
+# redirect unknown files to index.html
+ErrorDocument 404 /404.html
+
 # Video support
 AddType video/ogg .ogv
 AddType video/mp4 .mp4
@@ -21,3 +24,9 @@ AddType application/dash+xml .mpd
 # For subtitles support
 AddType text/vtt .vtt
 AddType text/srt .srt
+
+# ignore git stuff
+RedirectMatch 404 /\.git
+
+# ignore README.md file
+RedirectMatch 404 /README.md
