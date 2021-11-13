@@ -34,10 +34,63 @@ a,.white {
     margin: auto;
     text-align: center;
 }
-th {
+.ctth {
+    background-color: dimgray;
+    color: black;
+    font-weight: bold;
+}
+
+/* colors */
+.bluebg {
+    background-color: blue;
+    color: white;
+}
+.yellowbg {
+    background-color: yellow;
+    color: black;
+}
+.greenbg {
+    background-color: green;
+    color: black;
+}
+.orangebg {
+    background-color: orange;
+    color: black;
+}
+.redbg {
+    background-color: red;
+    color: black;
+}
+.violetbg {
+    background-color: violet;
+    color: black;
+}
+.indigobg {
+    background-color: indigo;
+    color: white;
+}
+.silverbg {
     background-color: silver;
     color: black;
 }
+.blackbg {
+    background-color: black;
+    color: white;
+}
+.whitebg {
+    background-color: white;
+    color: black;
+}
+.goldbg {
+    background-color: gold;
+    color: black;
+}
+.purpurbg {
+    background-color: #FF0066;
+    color: white;
+}
+
+/* boxes */
 .box-center {
     width: 80%;
     height: 70%;
@@ -69,6 +122,7 @@ th {
     margin: 0 auto;
 }
 
+/* menu */
 .menu-container {
     text-align: center;
     overflow: hidden;
@@ -89,4 +143,11 @@ th {
 }
 .menu-item:hover {
     background-color: #000;
+}
+
+footer {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    text-align: center;
 }
