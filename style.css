@@ -28,14 +28,24 @@ a,.white {
     color: #ffffff;
 }
 
+.correspondencestable {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    text-align: center;
+}
+th {
+    background-color: silver;
+    color: black;
+}
 .box-center {
-    width: 70%;
+    width: 80%;
     height: 70%;
     margin: auto;
     text-align: center;
 }
 .box-left {
-    width: 70%;
+    width: 80%;
     height: 70%;
     margin: auto;
     text-align: left;
