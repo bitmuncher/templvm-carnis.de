@@ -51,7 +51,7 @@ a,.white {
 }
 .greenbg {
     background-color: green;
-    color: black;
+    color: white;
 }
 .orangebg {
     background-color: orange;
@@ -87,7 +87,7 @@ a,.white {
 }
 .purpurbg {
     background-color: #FF0066;
-    color: white;
+    color: black;
 }
 
 /* boxes */
