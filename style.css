@@ -34,6 +34,14 @@ a,.white {
     margin: auto;
     text-align: center;
 }
+
+.tarotTable {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    text-align: center;
+}
+
 .ctth {
     background-color: dimgray;
     color: black;
@@ -89,6 +97,7 @@ a,.white {
     background-color: #FF0066;
     color: black;
 }
+
 
 /* boxes */
 .box-center {
