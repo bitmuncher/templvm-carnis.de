@@ -13,6 +13,12 @@ body{
     color: #969696;
 }
 
+sappho {
+  height: 100%; 
+  width: 100%;
+  margin: auto;
+}
+
 img {
     max-width:100%;
 }
