@@ -33,6 +33,20 @@ a,.white {
   margin:  auto;
 }
 
+.sapphoTable {
+  width: 90%;
+  height: 70%;
+  margin: auto;
+  text-align: center;
+  vertical-align: top;
+}
+
+.sapphoTableData {
+  vertical-align: top;
+  text-align: center;
+  width: 50%;
+}
+
 .correspondencestable {
     width: 80%;
     height: 70%;
