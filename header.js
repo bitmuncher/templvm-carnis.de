@@ -11,9 +11,9 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 <header>\
     <center>\
         <h1> \
-            <img src="data/images/templvm_carnis_logo_dark_100.jpg" style="float:left"/>\
+            <img src="/data/images/templvm_carnis_logo_dark_100.jpg" style="float:left"/>\
             <a href="index.html">TEMPLVM CARNIS</a>\
-            <img src="data/images/templvm_carnis_logo_dark_100.jpg" style="float:right"/>\
+            <img src="/data/images/templvm_carnis_logo_dark_100.jpg" style="float:right"/>\
         </h1>\
     </center>\
 </header>\
