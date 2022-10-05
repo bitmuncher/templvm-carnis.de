@@ -1,22 +1,16 @@
 @font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url(data/fonts/default.ttf) format('truetype');
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(data/fonts/default.ttf) format('truetype');
 }
 
 body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #000000;
-    color: #969696;
-}
-
-sappho {
-  height: 100%; 
-  width: 100%;
-  margin: auto;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000;
+  color: #969696;
 }
 
 img {
@@ -32,6 +26,11 @@ h2,.white{
 
 a,.white {
     color: #ffffff;
+}
+
+.sappho {
+  width: 80%;
+  margin:  auto;
 }
 
 .correspondencestable {
