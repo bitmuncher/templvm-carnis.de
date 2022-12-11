@@ -28,6 +28,11 @@ a,.white {
     color: #ffffff;
 }
 
+.fw_content {
+  width: 80%;
+  margin: auto;
+}
+
 .sinistertarot {
   width: 100%;
   margin:  auto;
