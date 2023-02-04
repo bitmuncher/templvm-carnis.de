@@ -139,6 +139,14 @@ a,.white {
 
 
 /* boxes */
+.img-with-desc {
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+  font-size: x-small;
+}
 .box-center {
     width: 80%;
     height: 70%;
