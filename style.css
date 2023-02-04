@@ -47,6 +47,11 @@ a,.white {
   width: 80%;
   margin: auto;
 }
+.lhpfaq_content h1 {
+  width: 80%;
+  margin: left;
+  font-size: 20px;
+}
 
 .sappho {
   width: 100%;
