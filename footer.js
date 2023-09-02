@@ -1,1 +1,1 @@
-document.write('<footer><br />&copy; 2022 Templvm Carnis - Contact: info@templvm-carnis.de<br /></footer><br />');
+document.write('<footer><br />&copy; 2023 Templvm Carnis<br /></footer><br />');
